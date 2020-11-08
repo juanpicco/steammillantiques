@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 50px;
+}
+
+.nav-link {
+    font-size: 1.5em !important;
+}
+
+.navbar-brand {
+    position: absolute;
+    height: 150px;
+    
+}
+
+.navbar-toggle {
+    z-index:1;
+}
+
+
+.content {
+    width: 90%;
+    margin: 30px auto 30px;
+
+}
+
+.content .main-content {
+    width: 70%;
+    float: left;
+
+}
+
+.content .main-content .post{
+    width: 95%;
+    height: 270px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+
+.content .main-content .post .read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.content .main-content .post .post-preview {
+    width: 60%;
+    padding: 10px;
+    float: right;
+}
+
+
+.content .main-content .post .post-image {
+    widows: 40%;
+    height: 100%;
+    float: left;
+}
+
+
+.content .main-content .recent-post-title {
+    margin: 20px;
+}
+
+
+.content .sidebar {
+    width: 30%;
+    float: left;
+
+    height: 30px;
+}
+
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: #006669;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem ;
+}
+
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-code {
+    color: #e54d26;
+}
+
+.fa-bold {
+    color: #563d7c;
+}
+
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-bold, .fa-code, .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 4.5rem;
+}
+
+.fa-facebook-square {
+    color: #1c3d85;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-linkedin {
+color: #517fa4;
+}
+
+.fa-facebook-square:hover, .fa-instagram:hover, .fa-linkedin:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+}
+
+.logo {
+    height: 200px;
+}
+
+.display-6 {
+    padding-top: 20px;
+}
+
+.tittle-history {
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.text-history {
+    align-items: center;
+    font-size: 18px;
+}
+
+
+
+.footer-history {
+    align-items: flex-end;
+}
+
+.card {
+    margin: 0 auto; 
+    float: none;
+    margin-bottom: 10px; 
+}
+
+.card-img {
+    width: 100%;
+}
+
+#hours {
+    padding-top: 4rem;
+}
+
+/*--- Padding --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    
+    .carousel-caption h1{
+        font-size: 450%;
+        text-shadow: 1px 1px 1px black;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5rem;
+        padding: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    
+    .carousel-caption h1{
+        font-size: 250%;
+        text-shadow: 1px 1px 1px black;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2rem;
+        padding: .7rem;
+    }
+}
+
+
